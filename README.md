@@ -68,4 +68,4 @@ Netflix-style movie recommendation page with:
 
 ## Author
 
-Created by Prateekshaa ✨
+Created by Prateekshaa 
