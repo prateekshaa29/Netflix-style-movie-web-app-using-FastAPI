@@ -1,24 +1,33 @@
 # Netflix Web Demo 🎬
 
-A simple Netflix-style movie web application built using FastAPI and Python.
+A simple Netflix-style web application built using FastAPI and Python.
 
 ## Features
-
-- Netflix-style UI
-- Movie cards display
-- FastAPI backend
-- JSON API endpoint
+- Movie cards UI
+- JSON API
 - Visitor counter
+- FastAPI backend
 - HTML, CSS, JavaScript frontend
 
 ## Technologies Used
-
 - Python
 - FastAPI
 - Uvicorn
 - HTML
 - CSS
 - JavaScript
+
+## Project Structure
+
+```bash
+netflix-web-demo/
+│
+├── hello.py
+├── server.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ## Installation
 
@@ -29,6 +38,8 @@ py -m pip install -r requirements.txt
 ```
 
 ## Run the Application
+
+Start the server:
 
 ```bash
 py -m uvicorn server:app --host 0.0.0.0 --port 8000 --reload
@@ -46,15 +57,14 @@ http://localhost:8000
 http://localhost:8000/movies
 ```
 
-## Project Files
+## Screenshot
 
-```bash
-hello.py
-server.py
-requirements.txt
-README.md
-.gitignore
-```
+Netflix-style movie recommendation page with:
+- Movie name
+- Genre
+- Rating
+- Duration
+- Language
 
 ## Author
 
